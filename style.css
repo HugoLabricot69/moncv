@@ -115,7 +115,6 @@ h1,h2,h3 {
     background-color: rgba(255, 255, 255, 0.959);
     transition-property: background-color, color, border-style, border-radius,box-shadow;
     transition-duration: 3s;
-    border-radius: 5%;
     border-style: outset;
     border-color: black;
 }
@@ -196,8 +195,6 @@ body {
     transition-property: background-color, color, opacity, border-color,box-shadow;
     transition-duration: 3s;
     opacity: 1;
-    border-radius: 5%;
-
 }
 .competences:hover {
     color: white;
