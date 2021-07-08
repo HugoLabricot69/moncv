@@ -3,6 +3,7 @@
     width: 200px;
     height: 200px;
     perspective: 1000px;
+    text-align: center;
 }  
 .flip-card-inner {
     position: relative;
@@ -35,6 +36,8 @@
     background-color: #c7c7c7ea;
     color: rgb(0, 0, 0);
     transform: rotateY(180deg);
+    margin-bottom: 30px;
+
 }
 h1 {
     color: rgb(255, 255, 255);
@@ -75,6 +78,7 @@ h3 {
 #conteneur-click {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 #conteneur-click a {
     background-image: black;
@@ -88,6 +92,7 @@ h3 {
 }
 p {
     font-family: 'Noto Sans', sans-serif;
+    margin: 7px;
     }
 h1,h2,h3 {
     font-family: 'Varela Round', sans-serif;
@@ -201,8 +206,6 @@ body {
     border-color: rgb(26, 136, 158);
     background-color: rgb(32, 32, 32);
     box-shadow: 10px 10px 2px 1px rgb(26, 136, 158);
-
-
 }
 .competences img {
     transition-property: opacity;
@@ -213,6 +216,9 @@ body {
     background-color: rgba(0, 0, 0, 0);
     color: white;
     opacity: 1;
+}
+.soustitre {
+    margin-bottom: 30px;
 }
 #interets{
     height: 10px;
