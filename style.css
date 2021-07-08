@@ -113,17 +113,18 @@ h1,h2,h3 {
     padding: 20px;
     margin-bottom: 10px;
     background-color: rgba(255, 255, 255, 0.959);
-    transition-property: background-color, color, border-style, border-radius;
+    transition-property: background-color, color, border-style, border-radius,box-shadow;
     transition-duration: 3s;
     border-radius: 5%;
     border-style: outset;
     border-color: black;
 }
 .formation:hover {
-    background-color: black;
     color: rgb(42, 208, 241);
     border-radius: 15%;
-    border-color: rgb(26, 136, 158)
+    border-color: rgb(26, 136, 158);
+    background-color: rgb(32, 32, 32);
+    box-shadow: 5px 5px 2px 1px rgb(26, 136, 158);
 }
 header {
     max-width: 1600px;
@@ -154,7 +155,7 @@ body {
     background: white;
     border-style: solid;
     background-color: rgba(255, 255, 255, 0.959);
-    transition-property: zzcolor, border-color, width;
+    transition-property: zzcolor, border-color, width,box-shadow;
     transition-duration: 3s;
     border-color: black;
     -webkit-transform: scale(0.9);
@@ -169,6 +170,7 @@ body {
     border-style:outset;
     -webkit-transform: scale(1);
 	transform: scale(1);
+    box-shadow: 5px 5px 2px 1px rgb(26, 136, 158);
 }
 #les-competences{
     display: flex;
@@ -191,16 +193,18 @@ body {
     background: white;
     border-style: solid;
     background-color: rgba(255, 255, 255, 0.959);
-    transition-property: background-color, color, opacity, border-color;
+    transition-property: background-color, color, opacity, border-color,box-shadow;
     transition-duration: 3s;
     opacity: 1;
     border-radius: 5%;
 
 }
 .competences:hover {
-    background-color: rgba(0, 0, 0, 0.850);
     color: white;
-    border-color: rgb(26, 136, 158)
+    border-color: rgb(26, 136, 158);
+    background-color: rgb(32, 32, 32);
+    box-shadow: 10px 10px 2px 1px rgb(26, 136, 158);
+
 
 }
 .competences img {
@@ -223,7 +227,7 @@ body {
     border-style: solid;
     border-color: black;
     background-color: rgba(255, 255, 255, 0.959);
-    transition-property: background-color, color height, opacity;
+    transition-property: background-color, color height, opacity,box-shadow;
     transition-duration: 3s;
     text-align: center;
     opacity: 70%;
@@ -234,6 +238,8 @@ body {
     height: 100px;
     color: white;
     opacity: 100%;
+    box-shadow: 100px 10px 100px 10px rgb(26, 136, 158);
+
 }
 ::selection {
     background: #69a4f0;
